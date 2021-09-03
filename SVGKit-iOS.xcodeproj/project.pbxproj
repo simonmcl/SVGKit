@@ -977,6 +977,14 @@
 		BD4C56DD199D55CC00AF04AD /* CAShapeLayerWithClipRender.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4C56DB199D55CC00AF04AD /* CAShapeLayerWithClipRender.m */; };
 		BDA133B719AD0E81003C9945 /* TinySVGTextAreaElement.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA133B519AD0E81003C9945 /* TinySVGTextAreaElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDA133B819AD0E81003C9945 /* TinySVGTextAreaElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA133B619AD0E81003C9945 /* TinySVGTextAreaElement.m */; };
+		C006D20926E25DFB00113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D20726E25DFB00113190 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C006D20A26E25DFB00113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D20726E25DFB00113190 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C006D20B26E25DFB00113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D20726E25DFB00113190 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C006D20C26E25DFB00113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D20726E25DFB00113190 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C006D20D26E25DFB00113190 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C006D20826E25DFB00113190 /* Logger.m */; };
+		C006D20E26E25DFB00113190 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C006D20826E25DFB00113190 /* Logger.m */; };
+		C006D20F26E25DFB00113190 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C006D20826E25DFB00113190 /* Logger.m */; };
+		C006D21026E25DFB00113190 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C006D20826E25DFB00113190 /* Logger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1311,6 +1319,8 @@
 		BD4C56DB199D55CC00AF04AD /* CAShapeLayerWithClipRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerWithClipRender.m; sourceTree = "<group>"; };
 		BDA133B519AD0E81003C9945 /* TinySVGTextAreaElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinySVGTextAreaElement.h; sourceTree = "<group>"; };
 		BDA133B619AD0E81003C9945 /* TinySVGTextAreaElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinySVGTextAreaElement.m; sourceTree = "<group>"; };
+		C006D20726E25DFB00113190 /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		C006D20826E25DFB00113190 /* Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1584,6 +1594,8 @@
 				66E863901688C2780059C9C4 /* SVGKSource.m */,
 				32EE37962173441400A23278 /* SVGKDefine.h */,
 				8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */,
+				C006D20726E25DFB00113190 /* Logger.h */,
+				C006D20826E25DFB00113190 /* Logger.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -1968,6 +1980,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C006D20C26E25DFB00113190 /* Logger.h in Headers */,
 				321EAA7C2171ED6900640504 /* CSSStyleSheet.h in Headers */,
 				321EAAD82171ED6F00640504 /* SVGFitToViewBox.h in Headers */,
 				321EAB4D2171ED9E00640504 /* NSData+NSInputStream.h in Headers */,
@@ -2200,6 +2213,7 @@
 				66EEE8571688CA94002E2658 /* SVGKParserStyles.h in Headers */,
 				66EEE8601688CB37002E2658 /* SVGGradientElement.h in Headers */,
 				66EEE8621688CB37002E2658 /* SVGGradientStop.h in Headers */,
+				C006D20926E25DFB00113190 /* Logger.h in Headers */,
 				66EEE8641688CB37002E2658 /* SVGStyleCatcher.h in Headers */,
 				66EEE8651688CB37002E2658 /* SVGStyleElement.h in Headers */,
 				66372EF01695F193008C6C56 /* SVGStylable.h in Headers */,
@@ -2339,6 +2353,7 @@
 				825CDB4C1BDA505E003C1C12 /* BaseClassForAllSVGBasicShapes.h in Headers */,
 				825CDB4D1BDA505E003C1C12 /* BaseClassForAllSVGBasicShapes_ForSubclasses.h in Headers */,
 				825CDB4E1BDA505E003C1C12 /* SVGSVGElement.h in Headers */,
+				C006D20A26E25DFB00113190 /* Logger.h in Headers */,
 				825CDB4F1BDA505F003C1C12 /* SVGSwitchElement.h in Headers */,
 				825CDB501BDA505F003C1C12 /* SVGTextElement.h in Headers */,
 				825CDB511BDA505F003C1C12 /* SVGTitleElement.h in Headers */,
@@ -2478,6 +2493,7 @@
 				825CDBCC1BDA50BA003C1C12 /* BaseClassForAllSVGBasicShapes.h in Headers */,
 				825CDBCD1BDA50BA003C1C12 /* BaseClassForAllSVGBasicShapes_ForSubclasses.h in Headers */,
 				825CDBCE1BDA50BA003C1C12 /* SVGSVGElement.h in Headers */,
+				C006D20B26E25DFB00113190 /* Logger.h in Headers */,
 				825CDBCF1BDA50BA003C1C12 /* SVGSwitchElement.h in Headers */,
 				825CDBD01BDA50BA003C1C12 /* SVGTextElement.h in Headers */,
 				825CDBD11BDA50BB003C1C12 /* SVGTitleElement.h in Headers */,
@@ -2822,6 +2838,7 @@
 				321EAAF32171ED7E00640504 /* SVGImageElement.m in Sources */,
 				321EAAE62171ED7E00640504 /* SVGStyleElement.m in Sources */,
 				321EAB1C2171ED8D00640504 /* SVGKParserDefsAndUse.m in Sources */,
+				C006D21026E25DFB00113190 /* Logger.m in Sources */,
 				321EAAA92171ED6900640504 /* NodeList.m in Sources */,
 				321EAB2D2171ED9100640504 /* SVGKPointsAndPathsParser.m in Sources */,
 				321EAB392171ED9600640504 /* CAShapeLayerWithHitTest.m in Sources */,
@@ -2974,6 +2991,7 @@
 				66E863EF1688C2780059C9C4 /* SVGPathElement.m in Sources */,
 				66E863F11688C2780059C9C4 /* SVGPolygonElement.m in Sources */,
 				BD2F8C56199D14D6008AE06D /* CALayerWithClipRender.m in Sources */,
+				C006D20D26E25DFB00113190 /* Logger.m in Sources */,
 				66E863F31688C2780059C9C4 /* SVGPolylineElement.m in Sources */,
 				66E863F51688C2780059C9C4 /* SVGRectElement.m in Sources */,
 				66E863F71688C2780059C9C4 /* BaseClassForAllSVGBasicShapes.m in Sources */,
@@ -3084,6 +3102,7 @@
 				825CDC1D1BDA511C003C1C12 /* SVGPreserveAspectRatio.m in Sources */,
 				825CDC1E1BDA511C003C1C12 /* SVGRect.m in Sources */,
 				825CDC1F1BDA511C003C1C12 /* SVGTransform.m in Sources */,
+				C006D20E26E25DFB00113190 /* Logger.m in Sources */,
 				825CDC201BDA511C003C1C12 /* SVGUseElement.m in Sources */,
 				825CDC211BDA511C003C1C12 /* SVGHelperUtilities.m in Sources */,
 				825CDC221BDA511C003C1C12 /* SVGTextPositioningElement.m in Sources */,
@@ -3202,6 +3221,7 @@
 				825CDC811BDA5144003C1C12 /* SVGPreserveAspectRatio.m in Sources */,
 				825CDC821BDA5144003C1C12 /* SVGRect.m in Sources */,
 				825CDC831BDA5144003C1C12 /* SVGTransform.m in Sources */,
+				C006D20F26E25DFB00113190 /* Logger.m in Sources */,
 				825CDC841BDA5144003C1C12 /* SVGUseElement.m in Sources */,
 				825CDC851BDA5144003C1C12 /* SVGHelperUtilities.m in Sources */,
 				825CDC861BDA5144003C1C12 /* SVGTextPositioningElement.m in Sources */,
