@@ -974,11 +974,11 @@
 		BD4C56DD199D55CC00AF04AD /* CAShapeLayerWithClipRender.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4C56DB199D55CC00AF04AD /* CAShapeLayerWithClipRender.m */; };
 		BDA133B719AD0E81003C9945 /* TinySVGTextAreaElement.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA133B519AD0E81003C9945 /* TinySVGTextAreaElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDA133B819AD0E81003C9945 /* TinySVGTextAreaElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA133B619AD0E81003C9945 /* TinySVGTextAreaElement.m */; };
-		C006D1FC26E234FD00113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D1FA26E234FD00113190 /* Logger.h */; };
+		C006D1FC26E234FD00113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D1FA26E234FD00113190 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C006D1FD26E234FD00113190 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C006D1FB26E234FD00113190 /* Logger.m */; };
-		C006D1FE26E23F3200113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D1FA26E234FD00113190 /* Logger.h */; };
-		C006D1FF26E23F3300113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D1FA26E234FD00113190 /* Logger.h */; };
-		C006D20026E23F3500113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D1FA26E234FD00113190 /* Logger.h */; };
+		C006D1FE26E23F3200113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D1FA26E234FD00113190 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C006D1FF26E23F3300113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D1FA26E234FD00113190 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C006D20026E23F3500113190 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = C006D1FA26E234FD00113190 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C006D20126E23F3800113190 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C006D1FB26E234FD00113190 /* Logger.m */; };
 		C006D20226E23F3800113190 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C006D1FB26E234FD00113190 /* Logger.m */; };
 		C006D20326E23F3900113190 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C006D1FB26E234FD00113190 /* Logger.m */; };
