@@ -233,7 +233,7 @@
 		321EAB512171EDA200640504 /* SVGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8639D1688C2780059C9C4 /* SVGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		321EAB522171EDA200640504 /* SVGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8639E1688C2780059C9C4 /* SVGUtils.m */; };
 		321EAB612171FB8100640504 /* SVGKImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 321EAB5B2171FB8100640504 /* SVGKImageRep.m */; };
-		321EAB632171FB8100640504 /* SVGKImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 321EAB5D2171FB8100640504 /* SVGKImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321EAB632171FB8100640504 /* SVGKImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 321EAB5D2171FB8100640504 /* SVGKImageRep.h */; };
 		321EAB652171FC0700640504 /* SVGKFastImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863921688C2780059C9C4 /* SVGKFastImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		321EAB672171FC0700640504 /* SVGKLayeredImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863961688C2780059C9C4 /* SVGKLayeredImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		321EAB682172025200640504 /* SVGKImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863941688C2780059C9C4 /* SVGKImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -278,7 +278,7 @@
 		32EE37982173441400A23278 /* SVGKDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EE37962173441400A23278 /* SVGKDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32EE37992173441400A23278 /* SVGKDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EE37962173441400A23278 /* SVGKDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32EE379A2173441400A23278 /* SVGKDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EE37962173441400A23278 /* SVGKDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32F206DB217324BB00427F24 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F206DB217324BB00427F24 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; };
 		32F206DC217324BB00427F24 /* SVGKExporterNSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F206DA217324BB00427F24 /* SVGKExporterNSImage.m */; };
 		4FD821F01AC69F6600E419D3 /* SVGSwitchElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD821EE1AC69F6600E419D3 /* SVGSwitchElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FD821F11AC69F6600E419D3 /* SVGSwitchElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD821EF1AC69F6600E419D3 /* SVGSwitchElement.m */; };
@@ -979,7 +979,7 @@
 		C0332C7E28F438D400B37947 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; };
 		C0332C7F28F439E900B37947 /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C0332C8028F439ED00B37947 /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C0332C8128F439F600B37947 /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0332C8128F439F600B37947 /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; };
 		C0332C8228F43A0300B37947 /* SVGKImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 321EAB5D2171FB8100640504 /* SVGKImageRep.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C0332C8328F43A0300B37947 /* SVGKImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 321EAB5D2171FB8100640504 /* SVGKImageRep.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C0332C8428F43A1900B37947 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -1931,7 +1931,6 @@
 				321EAA912171ED6900640504 /* StyleSheetList.h in Headers */,
 				321EAADD2171ED6F00640504 /* SVGTextPositioningElement_Mutable.h in Headers */,
 				321EAAFE2171ED7E00640504 /* BaseClassForAllSVGBasicShapes.h in Headers */,
-				C0332C8128F439F600B37947 /* SVGKDefine_Private.h in Headers */,
 				321EAB1D2171ED8D00640504 /* SVGKParserDOM.h in Headers */,
 				321EAABF2171ED6F00640504 /* SVGElementInstanceList_Internal.h in Headers */,
 				321EAA952171ED6900640504 /* MediaList.h in Headers */,
@@ -2008,7 +2007,6 @@
 				321EAA9F2171ED6900640504 /* EntityReference.h in Headers */,
 				321EAB152171ED8700640504 /* SVGKSourceNSData.h in Headers */,
 				321EAA702171ED6900640504 /* Attr.h in Headers */,
-				321EAB632171FB8100640504 /* SVGKImageRep.h in Headers */,
 				321EAA992171ED6900640504 /* DocumentType.h in Headers */,
 				321EAAAC2171ED6900640504 /* Text.h in Headers */,
 				321EAAC82171ED6F00640504 /* SVGPoint.h in Headers */,
@@ -2021,7 +2019,6 @@
 				321EAAC32171ED6F00640504 /* SVGLength.h in Headers */,
 				321EAB672171FC0700640504 /* SVGKLayeredImageView.h in Headers */,
 				321EAACA2171ED6F00640504 /* SVGPreserveAspectRatio.h in Headers */,
-				32F206DB217324BB00427F24 /* SVGKExporterNSImage.h in Headers */,
 				321EAAE72171ED7E00640504 /* SVGCircleElement.h in Headers */,
 				322A5B82218BFE11003D9CF1 /* SVGKInlineResource.h in Headers */,
 				321EAADB2171ED6F00640504 /* SVGTextContentElement.h in Headers */,
@@ -2033,6 +2030,9 @@
 				321EAB212171ED8D00640504 /* SVGKParserPatternsAndGradients.h in Headers */,
 				321EAABA2171ED6F00640504 /* SVGElementInstance.h in Headers */,
 				321EAB402171ED9900640504 /* SVGKit.h in Headers */,
+				C0332C8128F439F600B37947 /* SVGKDefine_Private.h in Headers */,
+				321EAB632171FB8100640504 /* SVGKImageRep.h in Headers */,
+				32F206DB217324BB00427F24 /* SVGKExporterNSImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
