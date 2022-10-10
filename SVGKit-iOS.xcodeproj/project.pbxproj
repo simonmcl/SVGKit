@@ -977,6 +977,13 @@
 		C0332C7A28F4384900B37947 /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; };
 		C0332C7D28F438B000B37947 /* SVGKImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 321EAB5D2171FB8100640504 /* SVGKImageRep.h */; };
 		C0332C7E28F438D400B37947 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; };
+		C0332C7F28F439E900B37947 /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0332C8028F439ED00B37947 /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0332C8128F439F600B37947 /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0332C8228F43A0300B37947 /* SVGKImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 321EAB5D2171FB8100640504 /* SVGKImageRep.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0332C8328F43A0300B37947 /* SVGKImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 321EAB5D2171FB8100640504 /* SVGKImageRep.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0332C8428F43A1900B37947 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0332C8528F43A1A00B37947 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1924,6 +1931,7 @@
 				321EAA912171ED6900640504 /* StyleSheetList.h in Headers */,
 				321EAADD2171ED6F00640504 /* SVGTextPositioningElement_Mutable.h in Headers */,
 				321EAAFE2171ED7E00640504 /* BaseClassForAllSVGBasicShapes.h in Headers */,
+				C0332C8128F439F600B37947 /* SVGKDefine_Private.h in Headers */,
 				321EAB1D2171ED8D00640504 /* SVGKParserDOM.h in Headers */,
 				321EAABF2171ED6F00640504 /* SVGElementInstanceList_Internal.h in Headers */,
 				321EAA952171ED6900640504 /* MediaList.h in Headers */,
@@ -2222,6 +2230,7 @@
 				825CDB221BDA5059003C1C12 /* SVGDocument_Mutable.h in Headers */,
 				825CDB231BDA5059003C1C12 /* SVGElementInstance.h in Headers */,
 				825CDB241BDA5059003C1C12 /* SVGElementInstance_Mutable.h in Headers */,
+				C0332C8428F43A1900B37947 /* SVGKExporterNSImage.h in Headers */,
 				825CDB251BDA5059003C1C12 /* SVGElementInstanceList.h in Headers */,
 				825CDB261BDA5059003C1C12 /* SVGElementInstanceList_Internal.h in Headers */,
 				825CDB271BDA5059003C1C12 /* SVGGElement.h in Headers */,
@@ -2265,6 +2274,7 @@
 				825CDB4B1BDA505E003C1C12 /* SVGRectElement.h in Headers */,
 				825CDB4C1BDA505E003C1C12 /* BaseClassForAllSVGBasicShapes.h in Headers */,
 				825CDB4D1BDA505E003C1C12 /* BaseClassForAllSVGBasicShapes_ForSubclasses.h in Headers */,
+				C0332C8228F43A0300B37947 /* SVGKImageRep.h in Headers */,
 				825CDB4E1BDA505E003C1C12 /* SVGSVGElement.h in Headers */,
 				825CDB4F1BDA505F003C1C12 /* SVGSwitchElement.h in Headers */,
 				825CDB501BDA505F003C1C12 /* SVGTextElement.h in Headers */,
@@ -2288,6 +2298,7 @@
 				825CDB631BDA5063003C1C12 /* SVGKParserExtension.h in Headers */,
 				825CDB641BDA5064003C1C12 /* SVGKPointsAndPathsParser.h in Headers */,
 				825CDB651BDA5064003C1C12 /* CALayer+RecursiveClone.h in Headers */,
+				C0332C7F28F439E900B37947 /* SVGKDefine_Private.h in Headers */,
 				825CDB661BDA5064003C1C12 /* SVGGradientLayer.h in Headers */,
 				825CDB671BDA5064003C1C12 /* CALayerWithClipRender.h in Headers */,
 				825CDB681BDA5065003C1C12 /* CAShapeLayerWithClipRender.h in Headers */,
@@ -2361,6 +2372,7 @@
 				825CDBA21BDA50B4003C1C12 /* SVGDocument_Mutable.h in Headers */,
 				825CDBA31BDA50B4003C1C12 /* SVGElementInstance.h in Headers */,
 				825CDBA41BDA50B4003C1C12 /* SVGElementInstance_Mutable.h in Headers */,
+				C0332C8528F43A1A00B37947 /* SVGKExporterNSImage.h in Headers */,
 				825CDBA51BDA50B5003C1C12 /* SVGElementInstanceList.h in Headers */,
 				825CDBA61BDA50B5003C1C12 /* SVGElementInstanceList_Internal.h in Headers */,
 				825CDBA71BDA50B5003C1C12 /* SVGGElement.h in Headers */,
@@ -2404,6 +2416,7 @@
 				825CDBCB1BDA50B9003C1C12 /* SVGRectElement.h in Headers */,
 				825CDBCC1BDA50BA003C1C12 /* BaseClassForAllSVGBasicShapes.h in Headers */,
 				825CDBCD1BDA50BA003C1C12 /* BaseClassForAllSVGBasicShapes_ForSubclasses.h in Headers */,
+				C0332C8328F43A0300B37947 /* SVGKImageRep.h in Headers */,
 				825CDBCE1BDA50BA003C1C12 /* SVGSVGElement.h in Headers */,
 				825CDBCF1BDA50BA003C1C12 /* SVGSwitchElement.h in Headers */,
 				825CDBD01BDA50BA003C1C12 /* SVGTextElement.h in Headers */,
@@ -2427,6 +2440,7 @@
 				825CDBE31BDA50BF003C1C12 /* SVGKParserExtension.h in Headers */,
 				825CDBE41BDA50BF003C1C12 /* SVGKPointsAndPathsParser.h in Headers */,
 				825CDBE51BDA50BF003C1C12 /* CALayer+RecursiveClone.h in Headers */,
+				C0332C8028F439ED00B37947 /* SVGKDefine_Private.h in Headers */,
 				825CDBE61BDA50C0003C1C12 /* SVGGradientLayer.h in Headers */,
 				825CDBE71BDA50C0003C1C12 /* CALayerWithClipRender.h in Headers */,
 				825CDBE81BDA50C0003C1C12 /* CAShapeLayerWithClipRender.h in Headers */,
