@@ -973,12 +973,14 @@
 		BDA133B719AD0E81003C9945 /* TinySVGTextAreaElement.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA133B519AD0E81003C9945 /* TinySVGTextAreaElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDA133B819AD0E81003C9945 /* TinySVGTextAreaElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA133B619AD0E81003C9945 /* TinySVGTextAreaElement.m */; };
 		C0332C7E28F438D400B37947 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; };
-		C0332C8428F43A1900B37947 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C0332C8528F43A1A00B37947 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0332C8428F43A1900B37947 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; };
+		C0332C8528F43A1A00B37947 /* SVGKExporterNSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F206D9217324BB00427F24 /* SVGKExporterNSImage.h */; };
 		C0332C8728F43D2100B37947 /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; };
 		C0332C8828F43D2500B37947 /* SVGKExporterNSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F206DA217324BB00427F24 /* SVGKExporterNSImage.m */; };
 		C0332C8928F43D2800B37947 /* SVGKExporterNSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F206DA217324BB00427F24 /* SVGKExporterNSImage.m */; };
 		C0332C8A28F43D3100B37947 /* SVGKImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 321EAB5D2171FB8100640504 /* SVGKImageRep.h */; };
+		C0332C8B28F43DC300B37947 /* SVGKExporterNSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F206DA217324BB00427F24 /* SVGKExporterNSImage.m */; };
+		C0332C8C28F43DCB00B37947 /* SVGKExporterNSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F206DA217324BB00427F24 /* SVGKExporterNSImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2972,6 +2974,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0332C8B28F43DC300B37947 /* SVGKExporterNSImage.m in Sources */,
 				825CDBF71BDA511C003C1C12 /* AppleSucksDOMImplementation.m in Sources */,
 				825CDBF81BDA511C003C1C12 /* Attr.m in Sources */,
 				825CDBF91BDA511C003C1C12 /* CDATASection.m in Sources */,
@@ -3090,6 +3093,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0332C8C28F43DCB00B37947 /* SVGKExporterNSImage.m in Sources */,
 				825CDC5B1BDA5144003C1C12 /* AppleSucksDOMImplementation.m in Sources */,
 				825CDC5C1BDA5144003C1C12 /* Attr.m in Sources */,
 				825CDC5D1BDA5144003C1C12 /* CDATASection.m in Sources */,
