@@ -16,6 +16,8 @@
  */
 
 #import "SVGKDefine.h"
+#import "SVGKDefine_Private.h"
+#import "SVGKImageRep.h"
 
 
 // MARK: - Framework Header File Content
